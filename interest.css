@@ -1,0 +1,70 @@
+#interest_section{
+    padding: 70px 0;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  #interest_section h2{
+    font-size: 50px;
+  }
+  .container_pic{
+  align-content: center;
+  height: 100vh;
+    margin:30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .pics{
+    height: 500px;
+    width:33.3%;
+    margin:50px;
+    box-shadow:5px 5px 20px black;
+    overflow:hidden;
+  }
+  img{
+    height: 500px;
+    width: 350px;
+  border-radius: 5px;
+  }
+  .intro{
+    height: 400px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    bottom:200px;
+    background: rgb(27,27,27,.5);
+    color:white;
+  }
+  h1 ,h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+  }
+  .intro p{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .pics:hover{
+  cursor: pointer;
+  }
+  .pics:hover .intro{
+    height:200px;
+    bottom:200px;
+    background: blue;
+  }
+  .pics:hover p{
+    visibility: visible;
+    opacity: 1;
+  }
